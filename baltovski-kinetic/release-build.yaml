@@ -2,10 +2,9 @@
 ---
 jenkins_url: http://localhost:8010
 notifications:
-  committers: true
   emails:
   - release@buildbot-ros.github.com
-  maintainers: true
+  maintainers: false
 targets:
   _config:
     apt_mirrors:
@@ -21,5 +20,5 @@ targets:
   ubuntu:
     trusty:
       amd64:
-type: source-build
+type: release-build
 version: 1
