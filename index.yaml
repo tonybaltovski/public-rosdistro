@@ -3,8 +3,8 @@
 # see REP 143: http://ros.org/reps/rep-0143.html
 ---
 distributions:
-  baltovski-kinetic:
-    distribution: [baltovski-kinetic/distribution.yaml]
-    distribution_cache: http://prod-ros-buildfarm-vm-repo-01/rosdistro_cache/baltovski-kinetic-cache.yaml.gz
+  kinetic:
+    distribution: [kinetic/distribution.yaml]
+    distribution_cache: http://prod-ros-buildfarm-vm-repo-01/rosdistro_cache/kinetic-cache.yaml.gz
 type: index
 version: 3
