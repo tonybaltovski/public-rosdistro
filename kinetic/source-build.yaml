@@ -19,7 +19,7 @@ targets:
     - http://packages.ros.org/ros.key
     - http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xEBDDE2A9100C5795
   ubuntu:
-    trusty:
+    kinetic:
       amd64:
 type: source-build
 version: 1
